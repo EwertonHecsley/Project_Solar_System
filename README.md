@@ -1,6 +1,7 @@
 ## Project_Solar_System
 
-Projeto utilizando a biblioteca React 
+
+
 
 <hr>
 
