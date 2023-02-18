@@ -2,7 +2,9 @@ import './App.css';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import PlanetCards from './components/PlanetCard';
-import nomePlaneta from './data/planets'
+import nomePlaneta from './data/planets';
+import Missoes from './components/Missoes';
+import missions from './data/missions'
 
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
     <div className="App">
       <Header />
       <SolarSystem planetName={nomePlaneta} planetImage={nomePlaneta} />
-      <PlanetCards />
+      <Missoes />
+      <PlanetCards missions={missions} />
     </div>
   );
 }
